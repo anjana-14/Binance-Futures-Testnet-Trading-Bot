@@ -186,6 +186,10 @@ Sample logs from test runs are in `logs/samples/`:
 | `-1111 Precision is over the maximum` | Quantity or price has too many decimals |
 | `Could not reach Binance` | Network issue or testnet downtime |
 
-## License
+## Note
 
-For evaluation / portfolio use. Not financial advice.
+> The project is fully configured for Binance Futures Testnet integration. Live order execution logs are dependent on access to valid Testnet API credentials.
+>
+> During development, Binance required identity verification (KYC) before allowing API key creation for the associated account. As a result, live API testing and order execution could not be completed from this account.
+>
+> The implementation includes complete request logging, response logging, input validation, and error handling. Actual order execution can be verified by providing valid Binance Futures Testnet API credentials and running the CLI commands described in this README.
